@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./screenshot-20250413-014649.png" alt="Profile Picture" class="profile-picture"
+                id="profilePicture">
+            <h1>Q</h1>
+            <p>call me</p>
+        </header>
+        <main>
+            <div class="gallery">
+                <img src="./1.jpg" Image 1" class="gallery-image" data-index="0">
+                <img src="./2.jpg" alt="Image 2" class="gallery-image" data-index="1">
+                <img src="./3.jpg" alt="Image 3" class="gallery-image" data-index="2">
+                <img src="./4.jpg" alt="Image 4" class="gallery-image" data-index="6">
+                <img src="./5.JPG" alt="Image 5" class="gallery-image" data-index="6">
+                <img src="./6.JPG" alt="Image 6" class="gallery-image" data-index="4">
+                <img src="./7.png" alt="Image 6" class="gallery-image" data-index="4">
+                <img src="./8.JPG" alt="Image 6" class="gallery-image" data-index="4">
+                <img src="./IMG_3668.JPG" alt="Image 6" class="gallery-image" data-index="4">
+
+                <!-- 更多图片 -->
+            </div>
+        </main>
+    </div>
+    <!-- 全屏查看模态框 -->
+    <div class="fullscreen-modal" id="fullscreenModal">
+        <span class="close-button" id="closeButton">&times;</span>
+        <img class="fullscreen-image" id="fullscreenImage">
+        <div class="navigation-buttons">
+            <button class="prev-button" id="prevButton">&#10094;</button>
+            <button class="next-button" id="nextButton">&#10095;</button>
+        </div>
+    </div>
+    <audio id="profileMusic" src="./music.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
